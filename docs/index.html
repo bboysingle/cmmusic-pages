@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CMMusic - 隐私策略</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.8;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            padding: 50px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 30px;
+            border-bottom: 3px solid #667eea;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+
+        .header .subtitle {
+            color: #666;
+            font-size: 1.1em;
+        }
+
+        .header .date {
+            color: #999;
+            font-size: 0.9em;
+            margin-top: 10px;
+        }
+
+        h2 {
+            color: #667eea;
+            font-size: 1.5em;
+            margin: 30px 0 15px 0;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+
+        h3 {
+            color: #764ba2;
+            font-size: 1.2em;
+            margin: 20px 0 10px 0;
+        }
+
+        p {
+            margin: 12px 0;
+            color: #444;
+        }
+
+        ul {
+            margin: 12px 0 12px 30px;
+            color: #444;
+        }
+
+        li {
+            margin: 8px 0;
+        }
+
+        .highlight {
+            background: #f8f9ff;
+            border-left: 4px solid #667eea;
+            padding: 15px 20px;
+            margin: 15px 0;
+            border-radius: 4px;
+        }
+
+        .warning {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px 20px;
+            margin: 15px 0;
+            border-radius: 4px;
+        }
+
+        strong {
+            color: #667eea;
+        }
+
+        a {
+            color: #667eea;
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.3s;
+        }
+
+        a:hover {
+            border-bottom-color: #667eea;
+        }
+
+        .footer {
+            margin-top: 40px;
+            padding-top: 30px;
+            border-top: 3px solid #667eea;
+            text-align: center;
+            color: #666;
+            font-size: 0.9em;
+        }
+
+        .contact-info {
+            background: #f8f9ff;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 15px 0;
+        }
+
+        .contact-info ul {
+            list-style: none;
+            margin-left: 0;
+        }
+
+        .contact-info li {
+            padding: 5px 0;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 30px 20px;
+            }
+
+            .header h1 {
+                font-size: 2em;
+            }
+
+            body {
+                padding: 20px 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎵 CMMusic</h1>
+            <div class="subtitle">隐私策略</div>
+            <div class="date">最后更新日期：2026年</div>
+        </div>
+
+        <h2>概述</h2>
+        <p>CMMusic（以下简称"本应用"）是一款开源音乐播放器。我们非常重视用户的隐私保护。本隐私策略说明了我们如何收集、使用和保护您的信息。</p>
+
+        <h2>信息收集</h2>
+
+        <h3>我们<strong>不</strong>收集的信息</h3>
+        <div class="highlight">
+            <p>本应用<strong>不会</strong>：</p>
+            <ul>
+                <li>收集您的个人身份信息</li>
+                <li>收集您的音乐文件或媒体内容</li>
+                <li>跟踪您的使用行为</li>
+                <li>向第三方分享您的数据</li>
+                <li>使用分析或追踪服务</li>
+            </ul>
+        </div>
+
+        <h3>本地存储的数据</h3>
+        <p>本应用会在您的设备本地存储以下数据：</p>
+        <ul>
+            <li><strong>媒体源配置</strong>：您添加的 WebDAV、Samba、FTP、SFTP 等媒体源的连接信息（仅存储在本地）</li>
+            <li><strong>播放列表</strong>：您创建的播放列表信息</li>
+            <li><strong>播放历史</strong>：您的播放历史记录</li>
+            <li><strong>应用设置</strong>：您的应用偏好设置</li>
+        </ul>
+        <div class="warning">
+            <p>⚠️ 这些数据<strong>仅存储在您的设备本地</strong>，不会上传到任何服务器。</p>
+        </div>
+
+        <h3>网络连接</h3>
+        <p>本应用需要网络连接以实现以下功能：</p>
+        <ul>
+            <li><strong>远程媒体源访问</strong>：连接到您配置的 WebDAV、Samba、FTP、SFTP 等服务器</li>
+            <li><strong>网络电台</strong>：播放网络电台流媒体</li>
+            <li><strong>元数据获取</strong>：从音乐文件或者目录中获取专辑封面和歌词</li>
+        </ul>
+        <p>这些连接仅用于访问您明确配置的媒体源，不会连接到我们的服务器。</p>
+
+        <h2>权限说明</h2>
+        <p>本应用请求的权限及其用途：</p>
+
+        <h3>Windows 权限</h3>
+        <ul>
+            <li><strong>网络访问</strong>：用于连接远程媒体源和网络电台</li>
+            <li><strong>文件系统访问</strong>：用于访问本地音乐文件</li>
+            <li><strong>音乐库访问</strong>：用于管理和播放本地音乐库</li>
+        </ul>
+
+        <h2>数据安全</h2>
+        <ul>
+            <li>所有数据均存储在您的设备本地</li>
+            <li>媒体源密码使用 AES-256 加密存储</li>
+            <li>不会向任何第三方传输您的数据</li>
+            <li>代码完全开源，可供审查</li>
+        </ul>
+
+        <h2>第三方服务</h2>
+        <p>本应用可能连接到以下类型的第三方服务：</p>
+        <ul>
+            <li><strong>您配置的媒体源服务器</strong>：WebDAV、Samba、FTP、SFTP 等</li>
+            <li><strong>公开的音乐元数据服务</strong>：用于获取专辑封面和歌词</li>
+            <li><strong>网络电台服务器</strong>：用于播放网络电台</li>
+        </ul>
+        <p>这些服务的隐私政策由其运营者制定，建议您查阅相关服务的隐私政策。</p>
+
+        <h2>开源</h2>
+        <p>本应用是开源软件，源代码完全公开。您可以：</p>
+        <ul>
+            <li>审查代码以验证隐私保护措施</li>
+            <li>自行构建应用</li>
+            <li>提交改进建议</li>
+        </ul>
+        <p>项目地址：<a href="https://github.com/bboysingle/dioxusmusic" target="_blank">https://github.com/bboysingle/dioxusmusic</a></p>
+
+        <h2>儿童隐私</h2>
+        <p>本应用不针对 13 岁以下儿童。我们不会故意收集儿童的个人信息。</p>
+
+        <h2>隐私策略变更</h2>
+        <p>我们可能会不时更新本隐私策略。任何变更都会通过应用更新或项目仓库公告通知。</p>
+
+        <h2>联系我们</h2>
+        <p>如果您对本隐私策略有任何疑问或建议，请通过以下方式联系我们：</p>
+        <div class="contact-info">
+            <ul>
+                <li>📧 邮箱：<a href="mailto:cmmusicapp@hotmail.com">cmmusicapp@hotmail.com</a></li>
+                <li>💻 GitHub Issues：<a href="https://github.com/bboysingle/dioxusmusic/issues" target="_blank">https://github.com/bboysingle/dioxusmusic/issues</a></li>
+            </ul>
+        </div>
+
+        <h2>法律声明</h2>
+        <p>本应用遵守适用的法律法规。使用本应用时，请确保您有权访问所连接的媒体源和内容。</p>
+
+        <div class="footer">
+            <p><strong>本隐私策略自发布之日起生效。</strong></p>
+            <p style="margin-top: 15px;">© 2026 CMMusic. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
