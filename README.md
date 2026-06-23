@@ -10,7 +10,7 @@ View the privacy policy at: https://bboysingle.github.io/cmmusic-pages/
 
 CMMusic is a cross-platform music player built with Rust and Dioxus.
 
-- **Main Repository**: https://github.com/bboysingle/dioxusmusic
+- **Main Repository**: [https://github.com/bboysingle/dioxusmusic](https://github.com/bboysingle/cmmusic-pages)
 - **Contact**: cmmusicapp@hotmail.com
 
 ## GitHub Pages
