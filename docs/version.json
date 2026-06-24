@@ -1,8 +1,13 @@
 {
-  "latest_version": "0.3.0",
-  "min_allowed_version": "0.1.0",
-  "release_date": "2026-06-23",
-  "grace_days": 15,
-  "download_url": "https://github.com/bboysingle/cmmusic-pages/releases",
-  "changelog": "v0.3.0 - 新增版本管理、广告优化、缓存管理改进"
+  "latest_version": "0.3.1",
+  "min_allowed_version": "0.3.1",
+  "release_date": "2026-06-24",
+  "grace_days": 0,
+  "changelog": "v0.3.1 - 版本管理测试：要求立即升级",
+  "downloads": {
+    "windows": "https://github.com/bboysingle/cmmusic-pages/releases/download/v0.3.1/cmmusic-0.3.1-setup.exe",
+    "macos": "https://github.com/bboysingle/cmmusic-pages/releases/download/v0.3.1/cmmusic-0.3.1.dmg",
+    "linux": "https://github.com/bboysingle/cmmusic-pages/releases/download/v0.3.1/cmmusic-0.3.1.AppImage",
+    "android": "https://github.com/bboysingle/cmmusic-pages/releases/download/v0.3.1/cmmusic-0.3.1-release.apk"
+  }
 }
