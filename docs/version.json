@@ -5,9 +5,9 @@
   "grace_days": 15,
   "changelog": "v0.3.1 - 版本管理优化, 支持宽限期提醒",
   "downloads": {
-    "windows": "https://github.com/bboysingle/cmmusic/releases/download/v0.3.1/cmmusic-0.3.1-setup.exe",
-    "macos": "https://github.com/bboysingle/cmmusic/releases/download/v0.3.1/cmmusic-0.3.1.dmg",
-    "linux": "https://github.com/bboysingle/cmmusic/releases/download/v0.3.1/cmmusic-0.3.1.AppImage",
-    "android": "https://github.com/bboysingle/cmmusic/releases/download/v0.3.1/cmmusic-0.3.1-release.apk"
+    "windows": "https://github.com/bboysingle/cmmusic-pages/releases/download/v0.3.1/cmmusic-0.3.1-setup.exe",
+    "macos": "https://github.com/bboysingle/cmmusic-pages/releases/download/v0.3.1/cmmusic-0.3.1.dmg",
+    "linux": "https://github.com/bboysingle/cmmusic-pages/releases/download/v0.3.1/cmmusic-0.3.1.AppImage",
+    "android": "https://github.com/bboysingle/cmmusic-pages/releases/download/v0.3.1/cmmusic-0.3.1-release.apk"
   }
 }
