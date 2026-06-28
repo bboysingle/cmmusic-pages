@@ -1,13 +1,13 @@
 {
-  "latest_version": "0.3.1",
-  "min_allowed_version": "0.2.0",
-  "release_date": "2026-06-24",
+  "latest_version": "0.3.2",
+  "min_allowed_version": "0.3.1",
+  "release_date": "2026-06-28",
   "grace_days": 15,
-  "changelog": "v0.3.1 - 版本管理优化, 支持宽限期提醒",
+  "changelog": "v0.3.2 - 123网盘webdav无法加载目录问题解决",
   "downloads": {
-    "windows": "https://github.com/bboysingle/cmmusic-pages/releases/download/v0.3.1/cmmusic-0.3.1-setup.exe",
-    "macos": "https://github.com/bboysingle/cmmusic-pages/releases/download/v0.3.1/cmmusic-0.3.1.dmg",
-    "linux": "https://github.com/bboysingle/cmmusic-pages/releases/download/v0.3.1/cmmusic-0.3.1.AppImage",
-    "android": "https://github.com/bboysingle/cmmusic-pages/releases/download/v0.3.1/cmmusic-0.3.1-release.apk"
+    "windows": "https://github.com/bboysingle/cmmusic-pages/releases/download/v0.3.2/cmmusic-0.3.2-setup.exe",
+    "macos": "https://github.com/bboysingle/cmmusic-pages/releases/download/v0.3.2/cmmusic-0.3.2.dmg",
+    "linux": "https://github.com/bboysingle/cmmusic-pages/releases/download/v0.3.2/cmmusic-0.3.2.AppImage",
+    "android": "https://github.com/bboysingle/cmmusic-pages/releases/download/v0.3.2/cmmusic-0.3.2-release.apk"
   }
 }
